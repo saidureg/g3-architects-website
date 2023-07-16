@@ -149,7 +149,7 @@ main {
     margin-bottom: 10px;
 }
 
-.feature-img img{
+.feature-img img {
     height: 90%;
     margin-left: 90px;
 }
@@ -165,12 +165,12 @@ main {
     bottom: 120px;
 }
 
-.ten-years-badge h3{
+.ten-years-badge h3 {
     font-size: 4rem;
     margin: 0;
 }
 
-.ten-years-badge p{
+.ten-years-badge p {
     font-size: 1.5rem;
 }
 
@@ -229,6 +229,18 @@ main {
     width: 165px;
 }
 
+/* footer styles */
+
+footer {
+    margin-left: 240px;
+    margin-right: 240px;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    color: #424242;
+    padding: 39px 410px;
+    text-align: center;
+    font-size: 1.25rem;
+}
 
 /* Responsive  media queries */
 /* Mobile devices */
@@ -249,12 +261,12 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .feature-img img{
+    .feature-img img {
         width: 95%;
         margin-left: 0;
     }
 
-    .ten-years-badge{
+    .ten-years-badge {
         position: static;
         max-width: 280px;
     }
@@ -277,6 +289,12 @@ main {
     .facts-card-container {
         margin: 20px;
         gap: 20px;
+    }
+
+    footer {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 40px;
     }
 }
 
@@ -313,6 +331,12 @@ main {
         margin: 0 auto;
         gap: 10px;
         margin-top: -20px;
+    }
+
+    footer {
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 20px 50px;
     }
 
 }
